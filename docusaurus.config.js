@@ -71,6 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Explore', position: 'left'},
           {
+            to: '/docs/intro',
             label: 'Sign Up',
             position: 'right',
           },
