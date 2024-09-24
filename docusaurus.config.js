@@ -71,8 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Explore', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'Sign Up',
             position: 'right',
           },
         ],
@@ -90,37 +89,16 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'About Us',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Explore',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Contact',
+                href: '/x.com/EUinMoldova',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Blue Voyage. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
