@@ -7,7 +7,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
   background-image: url('/static/img/clouds.svg');
   height: 70%;
