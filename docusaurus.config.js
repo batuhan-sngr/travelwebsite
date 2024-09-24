@@ -60,7 +60,7 @@ const config = {
         title: 'Blue Voyage',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/bluevoyage.svg',
+          src: 'img/BlueVoyage.svg',
         },
         items: [
           {
