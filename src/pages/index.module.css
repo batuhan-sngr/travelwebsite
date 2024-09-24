@@ -11,7 +11,7 @@
 }
 
 .hero_img {
-  background-image: url('static/img/clouds.jpg');
+  background-image: url('/static/img/clouds.jpg');
   position: relative;
   height: 70%;
   object-fit: cover;
