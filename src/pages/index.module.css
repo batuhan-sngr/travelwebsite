@@ -2,20 +2,13 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-@keyframes pulsate {
-  50%{ stroke-width:5px }
-}
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  fill            : none;
-  stroke          : black;
-  stroke-width    : .5px;
-  stroke-linejoin : round;
-  animation       : 2s pulsate infinite;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
   background-image: url('/static/img/clouds.svg');
   height: 70%;
   object-fit: cover;
