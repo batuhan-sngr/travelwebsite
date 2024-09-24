@@ -4,6 +4,10 @@
  * work well for content-centric websites.
  */
 
+.navbar {
+  background-color: transparent;
+  box-shadow: none; /* Optional: Remove the shadow if you want a cleaner transparent look */
+}
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #3f7bad;
