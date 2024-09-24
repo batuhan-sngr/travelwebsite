@@ -8,7 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image: url('/static/img/clouds.jpg');
+  background-image: url('/static/img/clouds.svg');
   height: 70%;
   object-fit: cover;
   background-size: cover;
