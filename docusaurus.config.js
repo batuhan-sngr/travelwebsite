@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Contact',
-                href: '/x.com/EUinMoldova',
+                href: 'https://x.com/EUinMoldova',
               },
             ],
           },
