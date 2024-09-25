@@ -75,6 +75,10 @@ const config = {
             label: 'Sign Up',
             position: 'right',
           },
+          {
+            type: 'search',
+            position: 'left',
+          },
         ],
       },
       footer: {
@@ -88,7 +92,6 @@ const config = {
                 to: '/docs/intro',
               },
             ],
-            position: 'left',
           },
           {
             title: 'About Us',
@@ -98,7 +101,6 @@ const config = {
                 href: 'https://x.com/EUinMoldova',
               },
             ],
-            position: 'right',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Blue Voyage. Built with Docusaurus.`,
