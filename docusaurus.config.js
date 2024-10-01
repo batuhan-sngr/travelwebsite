@@ -9,7 +9,7 @@ const config = {
   title: 'Blue Voyage',
   tagline: 'Share Your Experience',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: 'https://your-docusaurus-test-site.com/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/bluevoyage.ico',
