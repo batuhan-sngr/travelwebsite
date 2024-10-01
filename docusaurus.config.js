@@ -9,7 +9,7 @@ const config = {
   title: 'Blue Voyage',
   tagline: 'Share Your Experience',
   url: 'https://travelwebsite-rho-one.vercel.app',
-  baseUrl: '/',
+  baseUrl: '//',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/bluevoyage.ico',
