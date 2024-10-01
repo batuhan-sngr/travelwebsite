@@ -63,21 +63,11 @@ const config = {
           src: 'img/BlueVoyage.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'My Page',
-          },
           {to: '/blog', label: 'Explore', position: 'left'},
           {
             to: '/docs/intro',
             label: 'Sign Up',
             position: 'right',
-          },
-          {
-            type: 'search',
-            position: 'left',
           },
         ],
         hideOnScroll: true,
@@ -112,5 +102,3 @@ const config = {
       },
     }),
 };
-
-module.exports = {...config, themes: ['@docusaurus/theme-search-algolia']};
