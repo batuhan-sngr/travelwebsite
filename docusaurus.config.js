@@ -80,6 +80,7 @@ const config = {
             position: 'left',
           },
         ],
+        hideOnScroll: true,
       },
       footer: {
         style: 'dark',
@@ -112,4 +113,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {...config, themes: ['@docusaurus/theme-search-algolia']};
